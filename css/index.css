@@ -543,14 +543,14 @@ display: inline-block;
 }
 #ads ol{
 bottom:1170px;	
-right: 20px;
+right: 140px;
 }
 #ads li img{
 	margin: 3px auto;
-	width: 115.2px;
-height:436px;
+	width: 100px;
+height:400px;
 }
 footer{
-top:1600px;
+top:1800px;
 }
 }
