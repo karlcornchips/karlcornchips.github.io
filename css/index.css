@@ -506,7 +506,7 @@ top:77px;
 	border-top:solid white 0.5px;	
 }
 .images{
-width: 30%;
+width: 35%;
 height:100%;
 }
 #main{
@@ -517,28 +517,43 @@ position: relative;
 #titlee{
 position:relative;
 bottom:110px;	
-left:5px;
+left:15px;
 }
 #main li{
 height:95px;	
 }
 #main ol{
-width:100%;	
+width:70%;	
+position:relative;
+right:60px;
 }
 .header{
-font-size: 20px;
+font-size: 15px;
 }
 .writing{
 	display:inline-block;
 font-size: 10px;
-    width: 65%;
+    width: 55%;
 	height: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 	position:relative;
+	right:20px;
 bottom:5px;	 
 }
 #ads{
-display:none;
+display: inline-block;	
+}
+#ads ol{
+bottom:1170px;	
+right: 20px;
+}
+#ads li{
+	margin: 3px auto;
+	width: 115.2px;
+height:436px;
+}
+footer{
+top:1600px;
 }
 }
