@@ -535,7 +535,7 @@ font-size: 10px;
     overflow: hidden;
     text-overflow: ellipsis;
 	position:relative;
-	right:-5px;
+	right:-40px;
 bottom:5px;	 
 }
 #ads{
@@ -543,7 +543,7 @@ display: inline-block;
 }
 #ads ol{
 bottom:1170px;	
-right: 150px;
+right: 180px;
 }
 #ads li img{
 	margin: 3px auto;
