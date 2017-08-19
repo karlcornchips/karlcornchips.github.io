@@ -216,7 +216,7 @@ float:right;
 	position:relative;
 bottom:1900px;	
 }
-#ads li{
+#ads li img{
 	margin: 10px auto;
 	list-style-type:none;
 	width: 160px;
@@ -225,15 +225,12 @@ position:relative;
 left:400px;
 }
 #ad1{
-background:url(https://justmythinking.com/wp-content/uploads/2015/06/amazon-long-vertical.gif) no-repeat center;
 background-size:contain;
 }
 #ad2{
-background:url(http://beautifulbannerads.com/wp-content/gallery/gallery-1/Vertical.jpg) no-repeat center;
 background-size:contain;
 }
 #ad3{
-background:url(https://s-media-cache-ak0.pinimg.com/236x/31/03/78/3103788484ed719191009bd6b283540a--design-display-ad-design.jpg) no-repeat center;
 background-size:contain;
 }
 
@@ -548,7 +545,7 @@ display: inline-block;
 bottom:1170px;	
 right: 20px;
 }
-#ads li{
+#ads li img{
 	margin: 3px auto;
 	width: 115.2px;
 height:436px;
