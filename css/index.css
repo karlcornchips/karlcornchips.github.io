@@ -503,8 +503,8 @@ top:77px;
 	border-top:solid white 0.5px;	
 }
 .images{
-width: 35%;
-height:100%;
+width: 44%;
+height:120%;
 }
 #main{
 position: relative;
@@ -517,12 +517,12 @@ bottom:110px;
 left:15px;
 }
 #main li{
-height:95px;	
+height:95px;
+padding-bottom: 18px;
 }
 #main ol{
-width:70%;	
-position:relative;
-right:60px;
+width:90%;	
+
 }
 .header{
 font-size: 15px;
@@ -530,27 +530,25 @@ font-size: 15px;
 .writing{
 	display:inline-block;
 font-size: 10px;
-    width: 55%;
-	height: 100%;
+    width: 50%;
+	height: 120%;
     overflow: hidden;
     text-overflow: ellipsis;
 	position:relative;
-	right:-40px;
+	right:0px;
 bottom:5px;	 
 }
 #ads{
-display: inline-block;	
+display: none;	
 }
-#ads ol{
-bottom:1170px;	
-right: 180px;
-}
-#ads li img{
-	margin: 3px auto;
-	width: 100px;
-height:400px;
-}
+
 footer{
 top:1800px;
+}
+footer li{
+font-size:16px;	
+}
+#copyright{
+	font-size:12px;
 }
 }
