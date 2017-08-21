@@ -409,7 +409,7 @@ top:-112px;
 		display:inline-block;
 position:fixed;
 z-index:2;
-top:25px;
+top:22px;
 left:20px;
 }
 #menu img{ 
@@ -427,7 +427,7 @@ left:20px;
 	top:-20px;
 	background-color:white;
 	z-index:1;
-	padding:2px 0px;
+	padding:0px 0px;
 	}
 	#logo img{
 		float:none;
@@ -444,7 +444,7 @@ left:20px;
   visibility:hidden;
 	}
 .slider{
-top:30px;	
+top:26px;	
 	width:100%;
 }
 .slider-wrapper {
