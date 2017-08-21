@@ -456,7 +456,7 @@ top:26px;
 	height: 70px;
 	width:50%;
 	margin:-1.5px;;
-top:-114px;
+top:-118px;
 }
 #three-boxes #images #box3{
 display:none;
@@ -476,12 +476,12 @@ background-color:rgba(0,0,0,0.9);
 	border-bottom: solid gray 0.5px;
 	text-align:center;
 	padding:25px;
-	margin:25px;
+	margin:20px;
 	color:rgba(200,200,200,1);
 	font-size: 20px;
 text-decoration:none;
 position:relative;
-top:70px;
+top:60px;
 }
 #popp{
 	border-top:solid white 0.5px;	
@@ -498,7 +498,7 @@ position: relative;
 #titlee{
 position:relative;
 bottom:122px;	
-left:22px;
+left:22.5px;
 }
 #main li{
 height:95px;
@@ -527,12 +527,16 @@ display: none;
 }
 
 footer{
-top:1800px;
+top:1680px;
+height:75px;
 }
 footer li{
 font-size:16px;	
+	margin: 20px 1%;
+	margin-top:-20px;
 }
 #copyright{
 	font-size:12px;
+	margin-top:-35px;
 }
 }
