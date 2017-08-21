@@ -1,13 +1,4 @@
 $(document).ready(function(){
-  function setHeight() {
-    windowHeight = $(window).innerHeight();
-    $('#more').css('min-height', windowHeight);
-  };
-  setHeight();
-  
-  $(window).resize(function() {
-    setHeight();
-  });
   
 $('#menu2').hide();
 		if($("#example").css("display") == "block"){
