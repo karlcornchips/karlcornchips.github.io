@@ -1,5 +1,14 @@
 $(document).ready(function(){
-
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('#more').css('min-height', windowHeight);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+  
 $('#menu2').hide();
 		if($("#example").css("display") == "block"){
 			
@@ -29,8 +38,15 @@ $('#title').animate({'margin-left':'-410px'},1500);
   }); 
 }
 
-$('#menu').on('click',function(){
+$('#menu1').on('click',function(){
 	$('#more').animate({'margin-left':'0'});
+	$('#menu1').hide();
+	$('#menu2').show();
+});
+$('#menu2').on('click',function(){
+	$('#more').animate({'margin-left':'-777px'});
+	$('#menu2').hide();
+	$('#menu1').show();
 });
 
 	});
