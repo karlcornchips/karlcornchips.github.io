@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
 *{
-  font-family:Questrial;
+  font-family:Raleway;
     padding: 0;
 }
 #example{
@@ -185,6 +185,9 @@ margin:0 auto;
 list-style-type:none;
 margin-bottom:20px;
 border-bottom: solid black 1px;
+}
+#main li:hover{
+	cursor:pointer;	
 }
 .header{
 font-size: 27px;
@@ -422,29 +425,26 @@ background-color:white;
 	left:0;
 		z-index:5;
 text-align:center;	
-    animation: cssAnimation 0s ease-in 2.5s forwards;
+    animation: cssAnimation 0s ease-in 2s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #preloader img{
 		animation-name: pulse_animation;
-	animation-duration: 5000ms;
+	animation-duration: 4000ms;
 	transform-origin:70% 70%;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 position:relative;
 top:40%;
-  width:80px;
+  width:55px;
 }
 @keyframes pulse_animation {
-	0% { transform: scale(1); }
-	30% { transform: scale(1.05); }
-	40% { transform: scale(1); }
-	50% { transform: scale(1.05); }
-	60% { transform: scale(1); }
-	70% { transform: scale(1.05); }
-	80% { transform: scale(1); }
-	100% { transform: scale(1); }
+	0% { transform: scale(1.02); }
+	10% { transform: scale(1.05); }
+	20% { transform: scale(1); }
+	30% { transform: scale(1.04);}
+	40% { transform: scale(1.01); }
 }
 @keyframes cssAnimation {
     to {
@@ -537,10 +537,7 @@ background-color:rgba(0,0,0,0.9);
 	font-size: 20px;
 text-decoration:none;
 position:relative;
-top:60px;
-}
-#popp{
-	border-top:solid white 0.5px;	
+top:45px;
 }
 .images{
 width: 44%;
