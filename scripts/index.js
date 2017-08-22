@@ -1,9 +1,6 @@
 $(document).ready(function(){
-  
 $('#menu2').hide();
 		if($("#example").css("display") == "block"){
-			
-
 $('#title').animate({'margin-left':'-410px'},1500);
 					$('.speech-bubble').hide();
 					$('#speech-bubbles').hide();
@@ -39,5 +36,4 @@ $('#menu2').on('click',function(){
 	$('#menu2').hide();
 	$('#menu1').show();
 });
-
 	});
