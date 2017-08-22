@@ -422,13 +422,7 @@ background-color:white;
 	left:0;
 		z-index:5;
 text-align:center;	
-	   -moz-animation: cssAnimation 0s ease-in 3.5s forwards;
-    /* Firefox */
-    -webkit-animation: cssAnimation 0s ease-in 3.5s forwards;
-    /* Safari and Chrome */
-    -o-animation: cssAnimation 0s ease-in 3.5s forwards;
-    /* Opera */
-    animation: cssAnimation 0s ease-in 3.5s forwards;
+    animation: cssAnimation 0s ease-in 3.3s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -439,7 +433,7 @@ text-align:center;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 position:relative;
-top:45%;
+top:40%;
   width:80px;
 }
 @keyframes pulse_animation {
