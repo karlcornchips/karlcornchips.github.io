@@ -1,0 +1,422 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+*{
+font-family:questrial;
+font-size: 20px;	
+}
+body{
+-webkit-font-smoothing: antialiased;
+}
+#logo{
+	position:fixed;
+width: 100%;
+padding-top:15px;
+padding-bottom:10px;
+text-align:center;	
+margin-top: -15px;
+background-color:white;
+margin-bottom: 30px;
+z-index:100;
+}
+#logo img{ 
+  /*width: 145px;*/
+  width:300px;
+}
+
+.slider {
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 15px;
+	opacity: 1;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 3s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}
+.slider-wrapper img{
+object-fit: cover;	
+}
+
+
+#title{
+	font-weight: 300;
+font-size: 30px;
+letter-spacing:4px;
+width: 100%;
+text-align:center;
+margin-top: 30px;
+}
+#subtitle-wrap{
+	margin-top: 10px;
+width:100%;
+}
+#subtitle{
+	font-weight: 300;
+font-size: 18px;
+line-height:20px;
+letter-spacing:1px;
+width: 1000px;
+text-align:justify;
+margin:0 auto;
+}
+#all{
+position:relative;
+top:66px;	
+}
+#all2{
+	position:relative;
+	top:-110px;
+}
+#ad1-wrap{
+width:100%;
+text-align:center;
+margin-top: 50px;	
+}
+#ad1{
+	width: 1000px;	
+}
+.heading{
+font-size:30px;	
+width:100%;
+text-align:center;
+margin-bottom: 130px;
+}
+#main-text{
+	width: 100%;
+ margin-top:-150px;
+}
+.text{
+	margin:150px auto;
+	width:1000px;
+	line-height: 25px;
+}
+.three-boxes{
+text-align:center;
+margin-bottom:-50px;
+}
+.three-boxes ol li{
+	padding: 120px 167.5px;
+display:inline;	
+margin: 1% 0.35%;
+}
+.three-boxes ol{
+padding:0;	
+}
+a{
+text-decoration:none;	
+}
+#box1{
+background: url(https://s-media-cache-ak0.pinimg.com/736x/60/31/55/603155701cce2cec436b1c8a0f4323f5--mexican-style-fashion-lookbook.jpg) no-repeat center;
+background-size:cover;	
+}
+
+#box2{
+background: url(http://www.tsuifei.com/allSite/yfs/05/images/a02.jpg) no-repeat center;
+background-size:cover;	
+}
+
+#box3{
+background: url(https://fashionindustrybroadcast.com/wp-content/uploads/2015/08/louis-vuitton-the-series-2-fashion-campaign-Louis_Vuitton_376_The_Series_2_Fashion_Campaign_2_DI3.jpg) no-repeat center;
+background-size:cover;
+}
+#set1{
+margin-top: 200px;
+}
+#set1 #box1{
+background: url(https://www.sketchappsources.com/resources/source-image/mvmt-watch-moto-360-shpetimujkani.png) no-repeat center;
+background-size:cover;
+}
+#set1 #box2{
+background: url(https://c1.staticflickr.com/9/8765/17696919733_08ecc2f756_b.jpg) no-repeat center;
+background-size:cover;
+}
+#set1 #box3{
+background: url(http://static3.businessinsider.com/image/57a0ca3788e4a74e018bc7c1-1024/9k=-11.jpg) no-repeat center;
+background-size:cover;
+}
+#set2 #box1{
+background: url(http://leclubdesdouze.com/wp-content/uploads/2014/10/insta_wellington.jpg) no-repeat center;
+background-size:cover;
+}
+#set2 #box2{
+background: url(http://www.orologium.com/ekmps/shops/173b1a/images/daniel-wellington-classic-cantebury-silver-steel-0202dw-40mm-blue-red-white-nato-[4]-180-p.jpg) no-repeat center;
+background-size:cover;
+}
+#set2 #box3{
+background: url(https://i.ytimg.com/vi/P4mgeEvwrY4/maxresdefault.jpg) no-repeat center;
+background-size:cover;
+}
+#set3 #box1{
+background: url(http://watchmarkaz.pk/img/productsimg/23166988580000.jpg) no-repeat center;
+background-size:cover;
+}
+#set3 #box2{
+background: url(https://www.movado.com/on/demandware.static/-/Sites-MovadoIntl-Library/default/dwe13ad5b1/content-assets/content%20grid%20slots%20for%20gridwalls/1881AutomaticMens.jpg) no-repeat center;
+background-size:cover;
+}
+#set3 #box3{
+background: url(https://www.movado.com/on/demandware.static/-/Sites-MovadoUS-Library/default/dw80479bfc/content-assets/all%20collection%20landing/MuseumSport_800x8002016update.jpg) no-repeat center;
+background-size:cover;
+}
+#set4 #box1{
+background: url(http://watchmarkaz.pk/img/productsimg/9524038160000.jpg) no-repeat center;
+background-size:cover;
+}
+#set4 #box2{
+background: url(http://watches.infoniac.com/uimg/max-1-tradition-watch-tissot.jpg) no-repeat center;
+background-size:cover;
+}
+#set4 #box3{
+background: url(http://watchmarkaz.pk/img/productsimg/22835551100000.jpg) no-repeat center;
+background-size:cover;
+}
+#set5 #box1{
+background: url(http://www.ablogtowatch.com/wp-content/uploads/2016/04/TSOVET-Automatic-Gauge-SMT-watches-aBlogtoWatch-35.jpg) no-repeat center;
+background-size:cover;
+}
+#set5 #box2{
+background: url(https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11375854_479772715521215_1922016827_n.jpg) no-repeat;
+background-position:15%;
+background-size:cover;
+}
+#set5 #box3{
+background: url(http://media.gq.com/photos/558360303655c24c6c96519f/master/w_800/style-blogs-the-gq-eye-TsovetSVT-QS40-635.jpeg) no-repeat center;
+background-size:cover;
+}
+#set6 #box1{
+background: url(https://cdnp1.stackassets.com/1e2638a54bfd27abfd523fb8add89b75ac52a495/store/opt/596/447/78d34bea3a94576590980a952e883ea8b7cf084eda03023301b480cde62d/product_13698_product_shots5_image.jpg) no-repeat center;
+background-size:cover;
+}
+#set6 #box2{
+background: url(https://cdn.shopify.com/s/files/1/0627/5517/products/Vincero_Chronograph_Blue_Black_Watch.jpg?v=1497574035) no-repeat center;
+background-size:cover;
+}
+#set6 #box3{
+background: url(https://brobible.files.wordpress.com/2016/10/vincero-2.jpg?quality=90&w=650) no-repeat center;
+background-size:cover;
+) no-repeat center;
+background-size:cover;
+}
+#set7 #box1{
+background: url(http://www.prodirectsoccer.com/productimages/V3_1_Main/147007.jpg) no-repeat center;
+background-size:cover;
+}
+#set7 #box2{
+background: url(https://www.wareable.com/media/images/2015/10/tomtom-screen1-1445527739-BiuD-full-width-inline.jpg) no-repeat center;
+background-size:cover;
+}
+#set7 #box3{
+background: url(https://www.wareable.com/media/images/2015/10/tomtom-spark-gps2-2-1441359336-kdxb-full-width-inline-1445527789-S019-full-width-inline.jpg) no-repeat center;
+background-size:cover;
+}
+span{
+	position:relative;
+	z-index:99;
+	padding:5px;
+	padding-left:11px;
+	padding-right:5px;
+	background:rgba(153,0,51,1);
+	font-weight:800;
+	font-size:30px;
+color:white;
+opacity: 0;
+   transition: opacity .5s ease-in-out;
+margin: 0px -85px;
+}
+#box3 span{
+padding-right:11px;	
+}
+#box1:hover span,#box2:hover span,#box3:hover span{
+	opacity:1;
+}
+footer{
+  position: absolute;
+top: 4850px;
+width: 100%;
+height: 120px;
+text-align:center;
+background: rgba(27,29,31,0.9);
+left:0;
+}
+footer ol{
+ padding:0;
+}
+
+
+footer li{
+	margin: 20px 5px;
+	margin-bottom: 10px;
+	margin-top: 2px;
+display: inline-block;
+font-size: 20px;
+color: rgba(255,255,255,0.65);	
+}
+.underline a{
+text-decoration:none;
+color: rgba(255,255,255,0.65);	
+}
+.underline:hover{
+text-decoration:underline;	
+}
+#copyright{
+	font-size:16px;
+	position:relative;
+	top: 20px;
+color: rgba(255,255,255,0.55);	
+}
+@media screen and (max-width: 1050px) {
+	*{
+	margin:0;	
+	}
+	#logo{
+margin-top: -15px;
+margin-bottom:-7px;
+}
+	#logo img{
+		width:222px;
+	}
+	.slider{
+	width:100%;
+}
+.slider-wrapper {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top:-11px;
+}
+#title-wrap{
+	width:100%;
+	text-align:center;
+}
+#title{
+	margin:0 auto;
+font-size: 25px;
+letter-spacing:2px;
+margin-top: 15px;
+width:93%;
+}
+#subtitle-wrap{
+	width:100%;
+}
+#subtitle{
+width:90%;	
+line-height:15px;
+font-size:15px;
+}
+.heading{
+font-size:30px;	
+margin-bottom: 85px;
+}
+.text{
+	margin:95px auto;
+	width:90%;
+	font-size:15px;
+	line-height: 25px;
+}
+.three-boxes ol li{
+	padding: 77px 16.6%;
+margin: 0 0.35%;
+}
+span{
+	position:relative;
+	top:73px;
+	z-index:99;
+	padding:5px;
+	padding-left:11px;
+	padding-right:5px;
+	background:rgba(0,0,0,0.5);
+	font-weight:800;
+	font-size:15px;
+color:white;
+opacity: 1;
+margin: 0px -50px;
+}
+footer{
+top: 3550px;
+height: 70px;
+text-align:center;
+background: rgba(27,29,31,0.9);
+left:0;
+}
+footer li{
+	margin-top: 10px;
+	font-size:15px;
+}
+.underline a{
+font-size: 15px;
+}
+#copyright{
+	font-size:12px;
+	top: 13px;
+}
+}
+@media screen and (max-width: 600px) {
+	#logo{
+margin-top: -15px;
+margin-bottom:-7px;
+}
+	.slider-wrapper {
+	height: 180px;
+}
+	#logo img{
+		width:180px;
+	}
+#title{
+font-size: 20px;
+margin-top: 15px;
+}
+#subtitle{
+width:90%;	
+line-height:15px;
+font-size:12px;
+}
+.heading{
+font-size:22px;	
+margin-bottom: 80px;
+}
+.text{
+	margin:80px auto;
+	width:90%;
+	font-size:13px;
+	line-height: 16px;
+}
+.three-boxes ol li{
+	padding: 66px 16.6%;
+margin: 0 0.35%;
+}
+span{
+	position:relative;
+	top:62px;
+}
+
+#ad1-wrap{
+display:none;	
+}
+#all{
+top:55px;	
+}
+#all2{
+top:-100px;	
+}
+footer{
+top: 3200px;
+}
+}
