@@ -414,7 +414,7 @@ margin-top: -15px;
 margin-bottom:-7px;
 }
 	.slider-wrapper {
-	height: 180px;
+	height: 220px;
 }
 	#logo #logo1{
 		width:180px;
@@ -455,7 +455,7 @@ span{
 display:none;	
 }
 #all{
-top:55px;	
+top:57px;	
 }
 #all2{
 top:-150px;	
@@ -471,6 +471,6 @@ top:18px;
 }
 #allfoot{
 position:relative;
-top:80px;	
+top:-3130px;	
 }
 }
