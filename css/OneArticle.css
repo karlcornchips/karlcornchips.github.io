@@ -349,8 +349,8 @@ margin-bottom: 85px;
 	line-height: 25px;
 }
 .three-boxes ol li{
-	padding: 77px 16.6%;
-margin: 0 0.35%;
+	padding: 77px 16.2%;
+margin: 0 0.3%;
 }
 span{
 	position:relative;
@@ -440,8 +440,8 @@ border-bottom: solid rgba(153,0,51,1) 2px;
 	line-height: 16px;
 }
 .three-boxes ol li{
-	padding: 66px 16.6%;
-margin: 0 0.35%;
+	padding: 66px 16.2%;
+margin: 0 0.30%;
 }
 .three-boxes{
 margin-bottom:5px;	
@@ -468,5 +468,9 @@ top: 3323px;
 }
 .underline a{
 top:18px;
+}
+#allfoot{
+position:relative;
+top:80px;	
 }
 }
