@@ -17,6 +17,7 @@ padding-bottom:10px;
 text-align:center;	
 margin-top: -15px;
 background-color:white;
+border-bottom:solid rgba(204,204,204,0.6) 1px;
 margin-bottom: 30px;
 z-index:100;
 }
@@ -438,5 +439,25 @@ top:-150px;
 }
 footer{
 top: 3400px;
+height:200px;
+background-color:rgba(0,0,0,0.1);
+}
+footer li{
+display:block;
+color:black;
+margin-bottom:20px;
+}
+.underline a{
+text-decoration:none;
+color: rgba(0,0,0,0.9);
+font-size:20px;
+position:relative;
+top:20px;
+}
+#copyright{
+display:none;	
+}
+footer li:not(.underline){
+display:none;
 }
 }
