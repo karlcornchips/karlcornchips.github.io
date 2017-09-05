@@ -93,11 +93,17 @@ margin-top: 50px;
 #ad1{
 	width: 1000px;	
 }
+.heading-wrap{
+	width:100%;
+text-align:center;
+}
 .heading{
 font-size:30px;	
-width:100%;
-text-align:center;
+width:200px;
+margin:0 auto;
+padding-bottom:10px;
 margin-bottom: 130px;
+border-bottom: solid rgba(153,0,51,1) 5px;
 }
 #main-text{
 	width: 100%;
@@ -157,7 +163,7 @@ background: url(http://leclubdesdouze.com/wp-content/uploads/2014/10/insta_welli
 background-size:cover;
 }
 #set2 #box2{
-background: url(http://www.orologium.com/ekmps/shops/173b1a/images/daniel-wellington-classic-cantebury-silver-steel-0202dw-40mm-blue-red-white-nato-[4]-180-p.jpg) no-repeat center;
+background: url(https://i.pinimg.com/736x/fc/4b/78/fc4b787456225a19936e613d01c8a9d4.jpg) no-repeat center;
 background-size:cover;
 }
 #set2 #box3{
@@ -391,6 +397,7 @@ font-size:12px;
 .heading{
 font-size:22px;	
 margin-bottom: 80px;
+border-bottom: solid rgba(153,0,51,1) 2px;
 }
 .text{
 	margin:80px auto;
@@ -401,6 +408,9 @@ margin-bottom: 80px;
 .three-boxes ol li{
 	padding: 66px 16.6%;
 margin: 0 0.35%;
+}
+.three-boxes{
+margin-bottom:15px;	
 }
 span{
 	position:relative;
@@ -414,7 +424,7 @@ display:none;
 top:55px;	
 }
 #all2{
-top:-100px;	
+top:-150px;	
 }
 footer{
 top: 3200px;
