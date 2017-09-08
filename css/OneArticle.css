@@ -140,20 +140,6 @@ padding:0;
 a{
 text-decoration:none;	
 }
-#box1{
-background: url(https://s-media-cache-ak0.pinimg.com/736x/60/31/55/603155701cce2cec436b1c8a0f4323f5--mexican-style-fashion-lookbook.jpg) no-repeat center;
-background-size:cover;	
-}
-
-#box2{
-background: url(http://www.tsuifei.com/allSite/yfs/05/images/a02.jpg) no-repeat center;
-background-size:cover;	
-}
-
-#box3{
-background: url(https://fashionindustrybroadcast.com/wp-content/uploads/2015/08/louis-vuitton-the-series-2-fashion-campaign-Louis_Vuitton_376_The_Series_2_Fashion_Campaign_2_DI3.jpg) no-repeat center;
-background-size:cover;
-}
 #set1{
 margin-top: 200px;
 }
@@ -174,7 +160,7 @@ background: url(http://leclubdesdouze.com/wp-content/uploads/2014/10/insta_welli
 background-size:cover;
 }
 #set2 #box2{
-background: url(https://i.pinimg.com/736x/fc/4b/78/fc4b787456225a19936e613d01c8a9d4.jpg) no-repeat center;
+background: url(http://www.orologium.com/ekmps/shops/173b1a/images/daniel-wellington-classic-cantebury-silver-steel-0202dw-40mm-blue-red-white-nato-[4]-180-p.jpg) no-repeat center;
 background-size:cover;
 }
 #set2 #box3{
@@ -315,9 +301,9 @@ margin-bottom:-7px;
 }
 .slider-wrapper {
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	position: relative;
-	top:-11px;
+	top:-10px;
 }
 #title-wrap{
 	width:100%;
@@ -343,7 +329,7 @@ font-size:30px;
 margin-bottom: 85px;
 }
 .text{
-	margin:95px auto;
+	margin:145px auto;
 	width:90%;
 	font-size:15px;
 	line-height: 25px;
@@ -354,18 +340,21 @@ margin: 0 0.3%;
 }
 span{
 	position:relative;
-	top:73px;
+	top:120px;
 	z-index:99;
-	padding:5px;
-	padding-left:11px;
-	padding-right:5px;
-	background:rgba(0,0,0,0.5);
+	padding:10px;
+	padding-left:15px;
+	padding-right:11px;
+	background:rgba(153,0,0,0.9);
 	font-weight:800;
 	font-size:15px;
 color:white;
 opacity: 1;
 margin: 0px -50px;
-display:none;
+}
+.weird-span{
+padding-right:13px;
+	
 }
 footer{
 top: 3900px;
@@ -411,13 +400,13 @@ font-size:10px;
 @media screen and (max-width: 600px) {
 	#logo{
 margin-top: -15px;
-margin-bottom:-7px;
+margin-bottom:-17px;
 }
 	.slider-wrapper {
-	height: 220px;
+	height: 250px;
 }
 	#logo #logo1{
-		width:180px;
+		width:200px;
 	}
 #title{
 font-size: 20px;
@@ -434,21 +423,27 @@ margin-bottom: 80px;
 border-bottom: solid rgba(153,0,51,1) 2px;
 }
 .text{
-	margin:80px auto;
+	margin:130px auto;
 	width:90%;
 	font-size:13px;
 	line-height: 16px;
 }
 .three-boxes ol li{
 	padding: 66px 16.2%;
-margin: 0 0.30%;
+margin: 0 1%;
 }
 .three-boxes{
-margin-bottom:5px;	
+margin-bottom:-50px;	
 }
 span{
 	position:relative;
-	top:62px;
+	top:105px;
+	padding:8px;
+	font-size:13px;
+	padding-left:10px;
+}
+.weird-span{
+padding-right:10px;	
 }
 
 #ad1-wrap{
