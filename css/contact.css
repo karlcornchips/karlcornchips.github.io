@@ -142,7 +142,7 @@ position:relative;
 top:50px;	
 }
 footer{
-height:150px;
+height:170px;
 width:100%;
 text-align:center;
 background-color:rgba(0,0,0,0.04);
@@ -177,7 +177,7 @@ position:absolute;
 top: 210px;	
 width:100%;
 text-align:center;	
-padding-bottom:50px;
+padding-bottom:30px;
 }
 #footer2 img{
 width:150px;
@@ -220,13 +220,13 @@ padding-bottom: 0px;
 width:728px;
 	margin:0 auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	#logo #logo1{ 
   width:200px;
 }
 #logo #mail{ 
   /*width: 145px;*/
-  width:32px;
+  width:38px;
 }
 #title{
 	font-size: 22px;
