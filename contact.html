@@ -10,19 +10,14 @@
 </head>
 <body>
 <div id='logo'>
-<img id='logo1' src='images/top10wallets.png'>
-<img id='mail' src='https://cdn4.iconfinder.com/data/icons/defaulticon/icons/png/256x256/mail.png'>
+<a href='index.html'><img id='logo1' src='images/top10wallets.png'></a>
+<a href='contact.html'><img id='mail' src='https://cdn4.iconfinder.com/data/icons/defaulticon/icons/png/256x256/mail.png'>
+</div></a>
 </div>
 
 <div id='main'>
-<div id='title-line'></div>
-  <h2 id='title' class="content-head is-center"><strong>Contact Us</strong></h2>
-  <aside>
-       <p>
-           We would love to hear from you! </p>
-           <p><strong>Please use the Contact Form to send us a message.</strong>
-       </p>
-   </aside>
+  <h2 id='title' class="content-head is-center">Contact Us</h2>
+  
 <!-- START HERE -->
    <link rel="stylesheet" href='css/contact.css' type='text/css'>
 
@@ -34,26 +29,26 @@
 </div>
     <fieldset id='name2' class="pure-group">
       <label style='margin-left:10px' for="name">Name:</label>
-      <input style='width:1000px' id="name" name="name" placeholder="Your name" />
+      <input style='width:100%' id="name" name="name" placeholder="Your name" />
     </fieldset>
     
      <fieldset id='email2' class="pure-group">
       <label style='margin-left:10px' for="email">Email Address:</label>
-      <input style='width:1000px' id="email" name="email" type="email" value=""
+      <input style='width:100%' id="email" name="email" type="email" value=""
       required placeholder="yourname@email.com"/>
       <span id="email-invalid" style="display:none">
         Must be a valid email address</span>
     </fieldset>
 
     <fieldset id='message2' class="pure-group">
-      <label for="message">Message:</label>
+      <label id='messageee'for="message">Message:</label>
       <textarea id="message" name="message" rows="5"
       placeholder="What you want to talk to us about"></textarea>
     </fieldset>
 
 <div id='button'>
    <button class="button-success pure-button button-xlarge">
-      <i class="fa fa-paper-plane"></i><span>Send</span></button>
+      <i class="fa fa-paper-plane"></i><span>Submit</span></button>
 </div>
 </div>
   </form>
@@ -67,23 +62,29 @@
 </div>
   <!-- Submit the Form to Google Using "AJAX" -->
   <script data-cfasync="false" type="text/javascript"
-  src='script/contact-mail.js'></script>
+  src='scripts/contact-mail.js'></script>
   <!-- <script data-cfasync="false" type="text/javascript"
   src="/form-submission-handler.js"></script> -->
 <!-- END -->
 
+
+<div id='allfoot'>
 <footer>
 <ol>
-<li class='underline'><a href='../about/about.html'>About Us </a></li>
+<li class='underline'><a href='../../about/about.html'>ABOUT </a></li>
 <li> / </li>
-<li class='underline'><a href='../privacy/privacy.html'> Privacy </a></li>
+<li class='underline'><a href='#'> PRIVACY </a></li>
 <li> / </li>
-<li class='underline'><a href='#'> Advertise </a></li>
-<li> / </li>
-<li class='underline'><a href='../contact/contact.html'> Contact </a></li>
+<li class='underline'><a href='contact.html'> CONTACT </a></li>
 </ol>
 <p id='copyright'> © 2017 WealthyStyles.com - All rights reserved. </p>
 </footer>
 
+<div id='footer2'>
+<img src='images/Screen Shot 2017-09-04 at 8.50.57 PM.png'>
+
+<h3> © 2017 Top10menwallets.com - All rights reserved. </h3>
+</div> 
+</div>
 </body>
 </html>
