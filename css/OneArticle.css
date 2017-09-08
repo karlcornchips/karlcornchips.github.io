@@ -8,6 +8,8 @@ font-size: 20px;
 }
 body{
 -webkit-font-smoothing: antialiased;
+margin:0;
+padding:0;
 }
 #logo{
 	position:fixed;
@@ -429,7 +431,7 @@ border-bottom: solid rgba(153,0,51,1) 2px;
 }
 .three-boxes ol li{
 	padding: 66px 17.5%;
-margin: 0 0.1%;
+margin: 0 0.4%;
 }
 .three-boxes{
 margin-bottom:-50px;	
