@@ -4,16 +4,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 *{
 font-family:questrial;
-border:none;
 font-weight:700;
-}
-body {
-  -webkit-font-smoothing: subpixel-antialiased;	
-
 }
 #logo{
 	position:fixed;
-width: 100%;
+width:100%;
 padding-top:15px;
 padding-bottom:0px;
 text-align:center;	
