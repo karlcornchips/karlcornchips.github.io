@@ -13,7 +13,7 @@ body{
 	position:fixed;
 width: 100%;
 padding-top:15px;
-padding-bottom:10px;
+padding-bottom:0px;
 text-align:center;	
 margin-top: -15px;
 background-color:white;
@@ -32,8 +32,8 @@ z-index:100;
   width:33px;
   float:left;
   position:relative;
-  left:10px;
-  bottom:2px;
+  left:15px;
+  bottom:-7px;
 }
 
 .slider {
@@ -160,7 +160,7 @@ background: url(http://leclubdesdouze.com/wp-content/uploads/2014/10/insta_welli
 background-size:cover;
 }
 #set2 #box2{
-background: url(http://www.orologium.com/ekmps/shops/173b1a/images/daniel-wellington-classic-cantebury-silver-steel-0202dw-40mm-blue-red-white-nato-[4]-180-p.jpg) no-repeat center;
+background: url(https://www.sparepartslife.com/media/cleo/default/brand-carousel/dw4.jpg) no-repeat center;
 background-size:cover;
 }
 #set2 #box3{
@@ -399,8 +399,7 @@ font-size:10px;
 }
 @media screen and (max-width: 600px) {
 	#logo{
-margin-top: -15px;
-margin-bottom:-17px;
+margin-top: -20px;
 }
 	.slider-wrapper {
 	height: 250px;
@@ -423,22 +422,22 @@ margin-bottom: 80px;
 border-bottom: solid rgba(153,0,51,1) 2px;
 }
 .text{
-	margin:130px auto;
+	margin:120px auto;
 	width:90%;
 	font-size:13px;
 	line-height: 16px;
 }
 .three-boxes ol li{
-	padding: 66px 16.2%;
-margin: 0 1%;
+	padding: 66px 17.5%;
+margin: 0 0.1%;
 }
 .three-boxes{
 margin-bottom:-50px;	
 }
 span{
 	position:relative;
-	top:105px;
-	padding:8px;
+	top:100px;
+	padding:5px;
 	font-size:13px;
 	padding-left:10px;
 }
@@ -466,6 +465,6 @@ top:18px;
 }
 #allfoot{
 position:relative;
-top:-3300px;	
+top:-3330px;	
 }
 }
