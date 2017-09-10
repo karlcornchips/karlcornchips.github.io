@@ -217,7 +217,7 @@ padding-bottom: 0px;
 width:728px;
 	margin:0 auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 	#logo #logo1{ 
 	margin:0 auto;
   width:200px;
