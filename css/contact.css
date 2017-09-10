@@ -10,8 +10,6 @@ border:none;
 #logo{
 	position:fixed;
 width:100%;
-padding-top:15px;
-padding-bottom:0px;
 text-align:center;	
 margin-top: -15px;
 background-color:white;
@@ -221,6 +219,7 @@ width:728px;
 }
 @media screen and (max-width: 750px) {
 	#logo #logo1{ 
+	margin:0 auto;
   width:200px;
 }
 #logo #mail{ 
