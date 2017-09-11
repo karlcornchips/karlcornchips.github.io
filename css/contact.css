@@ -81,7 +81,7 @@ text-decoration:underline;
 	top: 20px;
 color: rgba(255,255,255,0.55);	
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
 	*{
 	margin:0;	
 	}
@@ -132,7 +132,7 @@ margin-bottom:2px;
 font-size:10px;	
 }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	#logo{
 margin-top: -5px;
 }

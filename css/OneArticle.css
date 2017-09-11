@@ -285,7 +285,7 @@ text-decoration:underline;
 	top: 20px;
 color: rgba(255,255,255,0.55);	
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1080px) {
 	*{
 	margin:0;	
 	}
@@ -397,7 +397,7 @@ margin-bottom:2px;
 font-size:10px;	
 }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	#logo{
 margin-top: -20px;
 }
@@ -432,7 +432,7 @@ border-bottom: solid rgba(153,0,51,1) 2px;
 width:100%;	
 }
 .three-boxes ol li{
-	padding: 66px 19%;
+	padding: 66px 17.5%;
 margin: 0 0.4%;
 }
 .three-boxes{
