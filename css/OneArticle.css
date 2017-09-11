@@ -2,8 +2,10 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:200,400,600');
 *{
-font-family:questrial;
+font-family:Questrial;
 font-size: 20px;	
 }
 body{
@@ -23,13 +25,13 @@ z-index:100;
 }
 #logo #logo1{ 
   /*width: 145px;*/
-  width:270px;
+  width:250px;
   position:relative;
   right:23px;
 }
 #logo #mail{ 
   /*width: 145px;*/
-  width:32px;
+  width:40px;
   float:left;
   position:relative;
   left:15px;
@@ -68,7 +70,8 @@ object-fit: cover;
 
 
 #title{
-	font-weight: 300;
+	font-family:Alegreya Sans SC;
+	font-weight: 600;
 font-size: 30px;
 letter-spacing:4px;
 width: 100%;
@@ -294,7 +297,7 @@ margin-top: -15px;
 margin-bottom:-7px;
 }
 	#logo #logo1{
-		width:222px;
+		width:220px;
 	}
 	.slider{
 	width:100%;
