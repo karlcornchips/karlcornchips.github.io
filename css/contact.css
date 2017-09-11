@@ -1,17 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css?family=Questrial');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
 *{
 font-family:questrial;
-font-weight:700;
-border:none;
+font-size: 20px;	
+}
+body{
+-webkit-font-smoothing: antialiased;
 }
 #logo{
 	position:fixed;
-width:100%;
+width: 100%;
+padding-top:15px;
+padding-bottom:0px;
 text-align:center;	
-margin-top: -15px;
+margin-top: 145px;
 background-color:white;
 border-bottom:solid rgba(204,204,204,0.6) 1px;
 margin-bottom: 30px;
@@ -32,124 +36,68 @@ z-index:100;
   bottom:-7px;
 }
 
+
 #title{
-	font-size: 25px;
-	font-weight:700;
-width:300px;
-margin:30px auto;	
+	font-weight: 300;
+font-size: 30px;
+letter-spacing:4px;
+width: 100%;
+text-align:center;
 margin-top: 30px;
-background:white;
-padding-bottom:20px;
-border-bottom: solid rgba(204,0,0,1) 3px;
 }
 
-input{
-	padding:15px;
-	margin-top:10px;
-	margin-left:-11px;
-	background-color:rgba(255,255,204,1);
-}
-textarea{
-	resize:none;
-	margin-top:10px;
-	margin-left:-7px;
-	padding:10px;
-	padding-bottom:50px;
-	background-color:rgba(255,255,204,1);
-}
-textarea:focus, input:focus{
-outline:none;
-}
-fieldset{
-	width:70%;
-	margin:0 auto;
-}
-
-textarea {
-  width: 100%;
-}
-
-.content-head {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-.is-center {
-  text-align: center;
-}
-.button-success {
-  color: white;
-  border-radius: 2px;
-  background: rgba(204,0,0,1);
-}
-.button-xlarge {
-  font-size: 120%;
-}
-label{
-font-size:18px;	
-position:relative;
-text-align:left;
-left:-15px;
-}
-#messageee{
-position:relative;
-left:-5px;	
-}
-#button {
-	width:100%;
-	text-align:center;
-}
-button {
-	border:none;
-	padding:7px;
-	margin-top:30px;
-	width:100px;
-	    transition: all 0.4s ease-in-out;
-		top:0px;
-		padding-left:7px;
-}
-button:hover{
-cursor:pointer;
-}
-.arrow:hover{
-		cursor:pointer;
-}
-.arrow-wrap{
-width:100%;
-text-align:center;
-}
-.arrow{
-background:url(http://www.freeiconspng.com/uploads/white-arrow-transparent-png-22.png) no-repeat;
-display:inline-block;
-background-size: contain;
-width:25px;
-height:25px;
-margin-left: 560px;
-position:relative;
-top: 352px;
-}
-
-
-
-
-
-
-#allfoot{
-position:relative;
-top:50px;	
-}
 footer{
-height:170px;
-width:100%;
+  position: absolute;
+top: 4850px;
+width: 100%;
+height: 120px;
 text-align:center;
-background-color:rgba(0,0,0,0.04);
+background: rgba(27,29,31,0.9);
+left:0;
 }
 footer ol{
-padding:0;	
+ padding:0;
+}
+
+
+footer li{
+	margin: 20px 5px;
+	margin-bottom: 10px;
+	margin-top: 2px;
+display: inline-block;
+font-size: 20px;
+color: rgba(255,255,255,0.65);	
+}
+.underline a{
+text-decoration:none;
+color: rgba(255,255,255,0.65);	
+}
+.underline:hover{
+text-decoration:underline;	
+}
+#copyright{
+	font-size:16px;
+	position:relative;
+	top: 20px;
+color: rgba(255,255,255,0.55);	
+}
+@media screen and (max-width: 1050px) {
+	*{
+	margin:0;	
+	}
+	#logo{
+margin-top: -15px;
+margin-bottom:-7px;
+}
+	#logo #logo1{
+		width:222px;
+	}
+footer{
+top: 4200px;
+height:150px;
+background-color:rgba(0,0,0,0.04);
 }
 footer li{
-	position:relative;
-	top:4px;
 display:block;
 color:black;
 margin-bottom:22px;
@@ -171,10 +119,9 @@ display:none;
 }
 #footer2{
 position:absolute;
-top: 210px;	
 width:100%;
 text-align:center;	
-padding-bottom:30px;
+padding-bottom:50px;
 }
 #footer2 img{
 width:150px;
@@ -184,58 +131,29 @@ margin-bottom:2px;
 	font-weight:400;
 font-size:10px;	
 }
-#main{
-position:relative;
-top: 100px;	
 }
-#thankyou_message{
-	width:100%;
-	display:none;
-	font-family:Raleway;
-	font-weight:400;
-text-align:center;
-margin-top: 150px;
-padding-bottom:20px;
+@media screen and (max-width: 600px) {
+	#logo{
+margin-top: -5px;
 }
-#thankyou_message p{
-font-size: 30px;	
+	.slider-wrapper {
+	height: 250px;
 }
-#email-invalid{
-	position:relative;
-	left:15px;
+	#logo #logo1{
+		width:200px;
+		left:-22px;
+	}
+footer{
+top: 3300px;
 }
-#ad-wrap{
-width:100%;
-text-align:center;
-margin-top: 130px;
-padding-bottom: 0px;
+#footer2{
+	top:3500px;
 }
-#ad{
-	background:url(https://www.rigsofrods.org/old-forum/forums/106-General-Chat/119046/thumbnail-000.png) no-repeat;
-	background-size:contain;
-	height:90px;
-width:728px;
-	margin:0 auto;
-}
-@media screen and (max-width: 480px) {
-	#logo #logo1{ 
-	margin:0 auto;
-  width:200px;
-}
-#logo #mail{ 
-  /*width: 145px;*/
-  width:38px;
-}
-#title{
-	font-size: 22px;
-width:240px;
-}
-#ad-wrap{
-display:none;	
+.underline a{
+top:18px;
 }
 #allfoot{
-top:130px;	
+position:relative;
+top:-2700px;	
 }
-
 }
-
