@@ -2,8 +2,10 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:200,400,600');
 *{
-font-family:questrial;
+font-family:Questrial;
 font-size: 20px;	
 }
 body{
@@ -15,7 +17,7 @@ width: 100%;
 padding-top:15px;
 padding-bottom:0px;
 text-align:center;	
-margin-top: 145px;
+margin-top: -15px;
 background-color:white;
 border-bottom:solid rgba(204,204,204,0.6) 1px;
 margin-bottom: 30px;
@@ -23,20 +25,18 @@ z-index:100;
 }
 #logo #logo1{ 
   /*width: 145px;*/
-  width:270px;
+  width:250px;
   position:relative;
-  right:23px;
+  right:31px;
 }
 #logo #mail{ 
   /*width: 145px;*/
-  width:32px;
+  width:40px;
   float:left;
   position:relative;
   left:15px;
   bottom:-7px;
 }
-
-
 #title{
 	font-weight: 300;
 font-size: 30px;
@@ -48,52 +48,64 @@ margin-top: 30px;
 
 footer{
   position: absolute;
-top: 4850px;
+top: 600px;
 width: 100%;
-height: 120px;
+height: 200px;
 text-align:center;
-background: rgba(27,29,31,0.9);
+background-color:rgba(0,0,0,0.04);
 left:0;
 }
 footer ol{
- padding:0;
+padding:0;	
 }
-
-
 footer li{
-	margin: 20px 5px;
-	margin-bottom: 10px;
-	margin-top: 2px;
-display: inline-block;
-font-size: 20px;
-color: rgba(255,255,255,0.65);	
+display:block;
+color:black;
+margin-bottom:25px;
 }
 .underline a{
+	font-family:raleway;
+	font-weight:700;
 text-decoration:none;
-color: rgba(255,255,255,0.65);	
-}
-.underline:hover{
-text-decoration:underline;	
+color: rgba(0,0,0,0.9);
+font-size:20px;
+position:relative;
+top:17px;
 }
 #copyright{
-	font-size:16px;
-	position:relative;
-	top: 20px;
-color: rgba(255,255,255,0.55);	
+display:none;	
+}
+footer li:not(.underline){
+display:none;
+}
+#footer2{
+width:100%;
+text-align:center;	
+padding-bottom:50px;
+position:relative;
+top:850px;
+}
+#footer2 img{
+width:200px;
+margin-bottom:-20px;
+}
+#footer2 h3{
+	font-weight:400;
+font-size:13px;	
 }
 @media screen and (max-width: 1080px) {
 	*{
 	margin:0;	
 	}
 	#logo{
-margin-top: -15px;
+margin-top: 0px;
 margin-bottom:-7px;
 }
 	#logo #logo1{
 		width:222px;
 	}
 footer{
-top: 4200px;
+top: 650px;
 height:150px;
 background-color:rgba(0,0,0,0.04);
 }
@@ -143,6 +155,7 @@ margin-top: -5px;
 		width:200px;
 		left:-22px;
 	}
+	
 footer{
 top: 3300px;
 }
