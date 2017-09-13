@@ -445,7 +445,7 @@ border-bottom: solid rgba(153,0,51,1) 2px;
 width:100%;	
 }
 .three-boxes ol li{
-	padding: 66px 18%;
+	padding: 66px 17.8%;
 margin: 0 0.4%;
 }
 .three-boxes{
@@ -484,5 +484,11 @@ top:18px;
 #allfoot{
 position:relative;
 top:-3330px;	
+}
+}
+@media screen and (max-width: 480px){
+.three-boxes ol li{
+	padding: 66px 19%;
+margin: 0 0.4%;
 }
 }
