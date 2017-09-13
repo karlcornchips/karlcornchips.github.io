@@ -311,6 +311,9 @@ margin-bottom:-7px;
 	#logo #logo1{
 		width:220px;
 	}
+	#logo #mail{
+		width:37px;
+	}
 	.slider{
 	width:100%;
 }
@@ -372,8 +375,8 @@ padding-right:13px;
 	
 }
 footer{
-top: 4400px;
-height:170px;
+top: 4440px;
+height:150px;
 }
 footer li{
 margin-bottom:22px;
@@ -381,7 +384,7 @@ margin-bottom:22px;
 .underline a{
 font-size:17px;
 position:relative;
-top:30px;
+top:22px;
 }
 #copyright{
 display:none;	
@@ -392,7 +395,7 @@ display:none;
 #footer2{
 width:100%;
 text-align:center;	
-padding-bottom:35px;
+padding-bottom:30px;
 position:absolute;
 top: 4620px;	
 }
@@ -403,11 +406,11 @@ margin-bottom:2px;
 #footer2 h3{
 	font-weight:400;
 font-size:10px;	
-margin-bottom:20px;
+margin-bottom:0px;
 }
 #allfoot{
 position:relative;
-bottom:4400px;
+bottom:4550px;
 }
 }
 @media screen and (max-width: 800px){
@@ -420,6 +423,10 @@ margin-top: -20px;
 	#logo #logo1{
 		width:200px;
 		left:-22px;
+	}
+	#logo #mail{
+		width:33px;
+		top:7px;
 	}
 #title{
 font-size: 20px;
@@ -473,17 +480,22 @@ top:57px;
 top:-150px;	
 }
 footer{
-top: 3300px;
+top: 3370px;
+height:130px;
+}
+footer li{
+margin-bottom:15px;	
 }
 #footer2{
 	top:3530px;
 }
 .underline a{
-top:18px;
+top:20px;
+font-size:15px;
 }
 #allfoot{
 position:relative;
-top:-3330px;	
+top:-3470px;	
 }
 }
 @media screen and (max-width: 480px){

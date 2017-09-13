@@ -14,7 +14,7 @@ body{
 #logo{
 	position:fixed;
 width: 100%;
-padding-top:15px;
+padding-top:22px;
 padding-bottom:0px;
 text-align:center;	
 margin-top: -15px;
@@ -98,30 +98,25 @@ font-size:13px;
 	margin:0;	
 	}
 	#logo{
-margin-top: 0px;
-margin-bottom:-7px;
+margin-top: -7px;
 }
 	#logo #logo1{
-		width:222px;
+		width:220px;
+	}
+	#logo #mail{
+		width:37px;
 	}
 footer{
-top: 650px;
+top: 4440px;
 height:150px;
-background-color:rgba(0,0,0,0.04);
 }
 footer li{
-display:block;
-color:black;
 margin-bottom:22px;
 }
 .underline a{
-	font-family:raleway;
-	font-weight:700;
-text-decoration:none;
-color: rgba(0,0,0,0.9);
 font-size:17px;
 position:relative;
-top:17px;
+top:22px;
 }
 #copyright{
 display:none;	
@@ -130,10 +125,11 @@ footer li:not(.underline){
 display:none;
 }
 #footer2{
-position:absolute;
 width:100%;
 text-align:center;	
-padding-bottom:50px;
+padding-bottom:30px;
+position:absolute;
+top: 4620px;	
 }
 #footer2 img{
 width:150px;
@@ -142,12 +138,21 @@ margin-bottom:2px;
 #footer2 h3{
 	font-weight:400;
 font-size:10px;	
+margin-bottom:0px;
+}
+#allfoot{
+position:relative;
+bottom:3900px;
 }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 	#logo{
-margin-top: -5px;
+margin-top: -12px;
 }
+#logo #mail{
+		width:33px;
+		top:7px;
+	}
 	.slider-wrapper {
 	height: 250px;
 }
@@ -157,16 +162,21 @@ margin-top: -5px;
 	}
 	
 footer{
-top: 3300px;
+top: 3370px;
+height:130px;
+}
+footer li{
+margin-bottom:15px;	
 }
 #footer2{
-	top:3500px;
+	top:3530px;
 }
 .underline a{
-top:18px;
+top:20px;
+font-size:15px;
 }
 #allfoot{
 position:relative;
-top:-2700px;	
+top:-2830px;	
 }
 }
