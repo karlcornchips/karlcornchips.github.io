@@ -453,7 +453,8 @@ border-bottom: solid rgba(153,0,51,1) 2px;
 width:100%;	
 }
 .three-boxes ol li{
-	padding: 66px 15.3%;
+	padding: 66px 15%;
+	/*padding: 66px 17.3%;*/
 margin: 0 0.4%;
 }
 .three-boxes{
