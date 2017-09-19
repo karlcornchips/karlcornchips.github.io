@@ -38,7 +38,7 @@ top:-7px;
 }
 #title-line{
 		line-height:0.1;
-	border-bottom: solid rgb(204,0,0) 5px;	
+	border-bottom: solid rgb(204,0,0) 2px;	
 	width:870px;
 	margin:0 auto;
 	margin-top:37px;
@@ -69,7 +69,7 @@ text-align:center;
 	}
 #main li{
 	width:850px;
-	text-align:center;
+	text-align:left;
 	list-style-type:none;
 margin: 40px auto;	
 font-size:20px;
