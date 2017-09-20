@@ -416,7 +416,7 @@ bottom:4550px;
 }
 @media screen and (max-width: 800px){
 	#logo{
-margin-top: -35px;
+margin-top: -30px;
 margin-bottom:-7px;
 
 }
@@ -426,12 +426,12 @@ margin-bottom:-7px;
 }
 	#logo #logo1{
 		width:190px;
-		left:-22px;
-		top:8px;
+		left:-21px;
+		top:5px;
 	}
 	#logo #mail{
 		width:30px;
-		top:16px;
+		top:12px;
 	}
 #title{
 font-size: 20px;
