@@ -416,18 +416,22 @@ bottom:4550px;
 }
 @media screen and (max-width: 800px){
 	#logo{
-margin-top: -20px;
+margin-top: -35px;
+margin-bottom:-7px;
+
 }
 	.slider-wrapper {
 	height: 250px;
+	top:-20px;
 }
 	#logo #logo1{
-		width:200px;
+		width:190px;
 		left:-22px;
+		top:8px;
 	}
 	#logo #mail{
-		width:33px;
-		top:7px;
+		width:30px;
+		top:16px;
 	}
 #title{
 font-size: 20px;
