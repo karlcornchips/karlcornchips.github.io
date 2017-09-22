@@ -154,12 +154,12 @@ top: 4620px;
 }
 #footer2 img{
 width:150px;
-margin-bottom:2px;
+margin-bottom:-2px;
 }
 #footer2 h3{
 	font-weight:400;
 font-size:10px;	
-margin-bottom:0px;
+margin-bottom:5px;
 }
 #allfoot{
 position:relative;
@@ -168,18 +168,17 @@ bottom:3900px;
 }
 @media screen and (max-width: 800px) {
 	#logo{
-margin-top: -12px;
+margin-top: -21px;
+margin-bottom:-7px;
 }
 #logo #mail{
-		width:33px;
-		top:7px;
+		width:30px;
+		top:11px;
 	}
-	.slider-wrapper {
-	height: 250px;
-}
 	#logo #logo1{
-		width:200px;
-		left:-22px;
+		width:190px;
+		left:-18px;
+		top:4px;
 	}
 		#title-wrap h1{
 	font-size: 25px;
