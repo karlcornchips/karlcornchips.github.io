@@ -113,11 +113,11 @@ text-align:center;
 }
 .heading{
 font-size:30px;	
-width:222px;
+width:290px;
 margin:0 auto;
 padding-bottom:10px;
 margin-bottom: 130px;
-border-bottom: solid rgba(153,0,51,1) 5px;
+border-bottom: solid rgba(153,0,51,1) 3px;
 }
 #main-text{
 	width: 100%;
@@ -148,28 +148,31 @@ text-decoration:none;
 margin-top: 200px;
 }
 #set1 #box1{
-background: url(https://www.sketchappsources.com/resources/source-image/mvmt-watch-moto-360-shpetimujkani.png) no-repeat center;
+background: url("../images/prada.jpg") no-repeat center;
 background-size:cover;
+background-position: 0px -20px;
 }
 #set1 #box2{
-background: url(https://c1.staticflickr.com/9/8765/17696919733_08ecc2f756_b.jpg) no-repeat center;
+background: url("../images/prada2.jpg") no-repeat center;
+background-position: bottom;
 background-size:cover;
 }
 #set1 #box3{
-background: url(http://static3.businessinsider.com/image/57a0ca3788e4a74e018bc7c1-1024/9k=-11.jpg) no-repeat center;
+background: url("../images/prada3.jpg") no-repeat center;
+background-position: bottom;
 background-size:cover;
 }
 #set2 #box1{
-background: url(http://leclubdesdouze.com/wp-content/uploads/2014/10/insta_wellington.jpg) no-repeat center;
-background-size:cover;
+background: url("../images/dolce.jpg") no-repeat center;
+background-size:contain;
 }
 #set2 #box2{
-background: url(https://www.sparepartslife.com/media/cleo/default/brand-carousel/dw4.jpg) no-repeat center;
-background-size:cover;
+background: url("../images/dolce2.jpg") no-repeat center;
+background-size:contain;
 }
 #set2 #box3{
-background: url(https://i.ytimg.com/vi/P4mgeEvwrY4/maxresdefault.jpg) no-repeat center;
-background-size:cover;
+background: url("../images/dolce3.jpg") no-repeat center;
+background-size:contain;
 }
 #set3 #box1{
 background: url(http://watchmarkaz.pk/img/productsimg/23166988580000.jpg) no-repeat center;
