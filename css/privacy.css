@@ -69,14 +69,17 @@ text-align:center;
 	}
 #main li{
 	width:850px;
-	text-align:center;
+	text-align:left;
 	list-style-type:none;
 margin: 40px auto;	
 font-size:20px;
 line-height:25px;
 letter-spacing:1px;
 }
-
+.bold{
+	text-align:center;
+font-weight:900;	
+}
 footer{
   position: absolute;
 top: 600px;
@@ -124,7 +127,10 @@ margin-bottom:-20px;
 	font-weight:400;
 font-size:13px;	
 }
-
+#allfoot{
+position:relative;
+top:1000px;	
+}
 @media screen and (max-width: 1080px) {
 	*{
 	margin:0;	
@@ -189,7 +195,7 @@ margin-bottom:34px;
 }
 #allfoot{
 position:relative;
-bottom:4190px;
+bottom:3190px;
 }
 }
 @media screen and (max-width: 800px) {
