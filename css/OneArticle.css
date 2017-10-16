@@ -259,7 +259,7 @@ padding-right:11px;
 }
 footer{
   position: absolute;
-top: 6400px;
+top: 8300px;
 width: 100%;
 height: 200px;
 text-align:center;
@@ -270,18 +270,20 @@ footer ol{
 padding:0;	
 }
 footer li{
-display:block;
 color:black;
-margin-bottom:25px;
+text-align:block;
+	margin-bottom:25px;
 }
 .underline a{
+	margin-bottom:5px;
+	display:block;
 	font-family:raleway;
 	font-weight:700;
 text-decoration:none;
 color: rgba(0,0,0,0.9);
 font-size:20px;
 position:relative;
-top:17px;
+top:0px;
 }
 #copyright{
 display:none;	
@@ -388,7 +390,7 @@ margin-bottom:22px;
 .underline a{
 font-size:17px;
 position:relative;
-top:22px;
+top:2px;
 }
 #copyright{
 display:none;	
@@ -414,7 +416,7 @@ margin-bottom:5px;
 }
 #allfoot{
 position:relative;
-bottom:4550px;
+bottom:4450px;
 }
 }
 @media screen and (max-width: 800px){
@@ -498,12 +500,13 @@ margin-bottom:15px;
 	top:3530px;
 }
 .underline a{
-top:20px;
+top:-2px;
+margin-bottom: 0px;
 font-size:15px;
 }
 #allfoot{
 position:relative;
-top:-3470px;	
+top:-3380px;	
 }
 }
 @media screen and (max-width: 480px){
