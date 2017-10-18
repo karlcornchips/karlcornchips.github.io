@@ -150,15 +150,15 @@ margin-top: 200px;
 }
 #set1 #box1{
 background: url(https://images-na.ssl-images-amazon.com/images/I/51370eQVnQL.jpg) no-repeat center;
-background-size:cover;
+background-size:contain;
 }
 #set1 #box2{
 background: url(https://images-na.ssl-images-amazon.com/images/I/51PH2-GFQdL.jpg) no-repeat center;
-background-size:cover;
+background-size:contain;
 }
 #set1 #box3{
 background: url(https://images-na.ssl-images-amazon.com/images/I/51g24OOujKL.jpg) no-repeat center;
-background-size:cover;
+background-size:contain;
 }
 #set2 #box1{
 background: url("../images/dolce.jpg") no-repeat center;
