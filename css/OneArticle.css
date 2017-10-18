@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial:100,200,400,600,700,900');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:200,400,600');
-*{
+*{	
 font-family:Questrial;
 font-size: 20px;	
+	margin:0;
 }
 body{
 -webkit-font-smoothing: antialiased;
@@ -267,7 +268,7 @@ background-color:rgba(0,0,0,0.04);
 left:0;
 }
 footer ol{
-padding:0;	
+padding:0;
 }
 footer li{
 color:black;
@@ -275,7 +276,7 @@ text-align:block;
 	margin-bottom:25px;
 }
 .underline a{
-	margin-bottom:5px;
+	margin-bottom:10px;
 	display:block;
 	font-family:raleway;
 	font-weight:700;
@@ -283,7 +284,7 @@ text-decoration:none;
 color: rgba(0,0,0,0.9);
 font-size:20px;
 position:relative;
-top:0px;
+top:13px;
 }
 #copyright{
 display:none;	
