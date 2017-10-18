@@ -525,7 +525,6 @@ span{
 .weird-span{
 padding-right:10px;	
 }
-
 #ad1-wrap{
 display:none;	
 }
@@ -554,10 +553,15 @@ font-size:15px;
 position:relative;
 top:-3380px;	
 }
+
 }
 @media screen and (max-width: 480px){
 .three-boxes ol li{
 	padding: 66px 18.5%;
 margin: 0 0.4%;
 }
+#set12 #box2{
+background-size:contain;
+}
+
 }
