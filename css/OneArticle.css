@@ -149,18 +149,15 @@ text-decoration:none;
 margin-top: 200px;
 }
 #set1 #box1{
-background: url("../images/prada3.jpg") no-repeat center;
+background: url(https://images-na.ssl-images-amazon.com/images/I/51370eQVnQL.jpg) no-repeat center;
 background-size:cover;
-background-position: bottom;
 }
 #set1 #box2{
-background: url("../images/prada2.jpg") no-repeat center;
-background-position: bottom;
+background: url(https://images-na.ssl-images-amazon.com/images/I/51PH2-GFQdL.jpg) no-repeat center;
 background-size:cover;
 }
 #set1 #box3{
-background: url("../images/prada3.jpg") no-repeat center;
-background-position: bottom;
+background: url(https://images-na.ssl-images-amazon.com/images/I/51g24OOujKL.jpg) no-repeat center;
 background-size:cover;
 }
 #set2 #box1{
