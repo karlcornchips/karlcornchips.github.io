@@ -100,14 +100,6 @@ top:66px;
 	position:relative;
 	top:-110px;
 }
-#ad1-wrap{
-width:100%;
-text-align:center;
-margin-top: 50px;	
-}
-#ad1{
-	width: 1000px;	
-}
 .heading-wrap{
 	width:100%;
 text-align:center;
@@ -197,54 +189,54 @@ background: url(https://images-na.ssl-images-amazon.com/images/I/51IwT4tLYEL.jpg
 background-size:cover;
 }
 #set5 #box1{
-background: url(http://www.ablogtowatch.com/wp-content/uploads/2016/04/TSOVET-Automatic-Gauge-SMT-watches-aBlogtoWatch-35.jpg) no-repeat center;
+background: url(https://images-na.ssl-images-amazon.com/images/I/51diNyLEjEL.jpg) no-repeat center;
 background-size:cover;
 }
 #set5 #box2{
-background: url(https://scontent.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11375854_479772715521215_1922016827_n.jpg) no-repeat;
-background-position:15%;
-background-size:cover;
+background: url(https://images-na.ssl-images-amazon.com/images/I/41rIIskG9DL.jpg) no-repeat;
+background-size:contain;
 }
 #set5 #box3{
-background: url(http://media.gq.com/photos/558360303655c24c6c96519f/master/w_800/style-blogs-the-gq-eye-TsovetSVT-QS40-635.jpeg) no-repeat center;
+background: url(https://images-na.ssl-images-amazon.com/images/I/51czJtR7qXL.jpg) no-repeat center;
 background-size:cover;
 }
 #set6 #box1{
-background: url(https://cdnp1.stackassets.com/1e2638a54bfd27abfd523fb8add89b75ac52a495/store/opt/596/447/78d34bea3a94576590980a952e883ea8b7cf084eda03023301b480cde62d/product_13698_product_shots5_image.jpg) no-repeat center;
-background-size:cover;
-}
-#set6 #box2{
-background: url(https://cdn.shopify.com/s/files/1/0627/5517/products/Vincero_Chronograph_Blue_Black_Watch.jpg?v=1497574035) no-repeat center;
-background-size:cover;
-}
-#set6 #box3{
-background: url(https://brobible.files.wordpress.com/2016/10/vincero-2.jpg?quality=90&w=650) no-repeat center;
-background-size:cover;
-) no-repeat center;
-background-size:cover;
-}
-#set7 #box1{
 background: url(https://images-na.ssl-images-amazon.com/images/I/41Ls5IvPWFL.jpg) no-repeat center;
 background-size:cover;
+background-position:0% 70%;
 }
-#set7 #box2{
+#set6 #box2{
 background: url(https://images-na.ssl-images-amazon.com/images/I/31n%2Bk1z2ZIL.jpg) no-repeat center;
 background-size:cover;
+background-position:0% 75%;
 }
-#set7 #box3{
+#set6 #box3{
 background: url(https://images-na.ssl-images-amazon.com/images/I/41SnEeOwxfL.jpg) no-repeat center;
 background-size:cover;
+background-position:0% 75%;
 }
-#set8 #box1{
+#set7 #box1{
 background: url(https://images-na.ssl-images-amazon.com/images/I/51ivpsrMy5L.jpg) no-repeat center;
 background-size:cover;
 }
-#set8 #box2{
+#set7 #box2{
 background: url(https://images-na.ssl-images-amazon.com/images/I/51qpsvvsJAL.jpg) no-repeat center;
 background-size:cover;
 }
-#set8 #box3{
+#set7 #box3{
 background: url(https://images-na.ssl-images-amazon.com/images/I/5182Oy1arRL.jpg) no-repeat center;
+background-size:cover;
+}
+#set8 #box1{
+background: url(https://images-na.ssl-images-amazon.com/images/I/31CXGlFJDxL.jpg) no-repeat center;
+background-size:cover;
+}
+#set8 #box2{
+background: url(https://images-na.ssl-images-amazon.com/images/I/41-QMR8QlpL.jpg) no-repeat center;
+background-size:cover;
+}
+#set8 #box3{
+background: url(https://images-na.ssl-images-amazon.com/images/I/41selMUcMbL.jpg) no-repeat center;
 background-size:cover;
 }
 #set9 #box1{
@@ -259,29 +251,29 @@ background-size:cover;
 background: url(https://images-na.ssl-images-amazon.com/images/I/5182Oy1arRL.jpg) no-repeat center;
 background-size:cover;
 }
-#set12 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/31CXGlFJDxL.jpg) no-repeat center;
-background-size:cover;
-}
-#set12 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41-QMR8QlpL.jpg) no-repeat center;
-background-size:cover;
-}
-#set12 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41selMUcMbL.jpg) no-repeat center;
-background-size:cover;
-}
-#set16 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51srhi3-5%2BL.jpg) no-repeat center;
+#set10 #box1{
+background: url(https://images-na.ssl-images-amazon.com/images/I/5109OTa8FWL.jpg) no-repeat center;
 background-size:contain;
 }
-#set16 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51AuZijiloL.jpg) no-repeat center;
+#set10 #box2{
+background: url(https://images-na.ssl-images-amazon.com/images/I/51RFf0Gi9iL.jpg) no-repeat center;
 background-size:contain;
 }
-#set16 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51sl0HmRP3L.jpg) no-repeat center;
+#set10 #box3{
+background: url(https://images-na.ssl-images-amazon.com/images/I/41VJA497mmL.jpg) no-repeat center;
 background-size:contain;
+}
+#set11 #box1{
+background: url("../images/wallet1.jpg") no-repeat center;
+background-size:cover;
+}
+#set11 #box2{
+background: url("../images/wallet2.jpg") no-repeat center;
+background-size:cover;
+}
+#set11 #box3{
+background: url("../images/wallet3.jpg") no-repeat center;
+background-size:cover;
 }
 span{
 	position:relative;
@@ -305,12 +297,15 @@ padding-right:11px;
 }
 footer{
   position: absolute;
-top: 8300px;
+top: 6150px;
 width: 100%;
 height: 200px;
 text-align:center;
 background-color:rgba(0,0,0,0.04);
 left:0;
+}
+#set5 #box2{
+background-position:0px 50%;
 }
 footer ol{
 padding:0;
@@ -342,7 +337,7 @@ width:100%;
 text-align:center;	
 padding-bottom:70px;
 position:relative;
-top:220px;
+top:300px;
 }
 #footer2 img{
 width:200px;
@@ -405,7 +400,7 @@ margin-bottom: 100px;
 	line-height: 25px;
 }
 .three-boxes ol li{
-	padding: 88px 16.6%;
+	padding: 88px 16.2%;
 margin: 0 0.3%;
 }
 span{
@@ -525,9 +520,6 @@ span{
 .weird-span{
 padding-right:10px;	
 }
-#ad1-wrap{
-display:none;	
-}
 #all{
 top:57px;	
 }
@@ -560,19 +552,19 @@ top:-3380px;
 	padding: 66px 18.5%;
 margin: 0 0.4%;
 }
-#set12 #box2{
-background-size:contain;
-}
 #set4 #box2{
 background-size:contain;
 }
-#set8 #box1{
-background-size:contain;
+#set5 #box2{
+background-position:0 50%;
 }
 #set8 #box2{
 background-size:contain;
 }
-#set8 #box3{
+#set5 #box1{
+background-size:contain;
+}
+#set5 #box3{
 background-size:contain;
 }
 }
