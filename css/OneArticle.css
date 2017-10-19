@@ -197,13 +197,13 @@ background: url(https://images-na.ssl-images-amazon.com/images/I/41rIIskG9DL.jpg
 background-size:contain;
 }
 #set5 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51czJtR7qXL.jpg) no-repeat center;
+background: url("../images/walletsysl.jpg") no-repeat center;
 background-size:cover;
 }
 #set6 #box1{
 background: url(https://images-na.ssl-images-amazon.com/images/I/41Ls5IvPWFL.jpg) no-repeat center;
 background-size:cover;
-background-position:0% 70%;
+background-position:0% 67.5%;
 }
 #set6 #box2{
 background: url(https://images-na.ssl-images-amazon.com/images/I/31n%2Bk1z2ZIL.jpg) no-repeat center;
@@ -561,10 +561,19 @@ background-position:0 50%;
 #set8 #box2{
 background-size:contain;
 }
-#set5 #box1{
+#set4 #box3{
 background-size:contain;
 }
 #set5 #box3{
+background-size:contain;
+}
+#set7 #box2{
+background-size:contain;
+}
+#set7 #box1{
+background-size:contain;
+}
+#set57 #box3{
 background-size:contain;
 }
 }
