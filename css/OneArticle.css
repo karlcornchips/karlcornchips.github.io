@@ -178,7 +178,7 @@ background-size:cover;
 }
 #set4 #box1{
 background: url("../images/gucci/gucci1.jpg") no-repeat center;
-background-size:contain;
+background-size:cover;
 }
 #set4 #box2{
 background: url("../images/gucci/gucci2.jpg") no-repeat center;
