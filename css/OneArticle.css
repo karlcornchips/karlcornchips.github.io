@@ -141,138 +141,138 @@ text-decoration:none;
 margin-top: 200px;
 }
 #set1 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51370eQVnQL.jpg) no-repeat center;
+background: url("../images/lv/lv1.jpg") no-repeat center;
 background-size:contain;
 }
 #set1 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51PH2-GFQdL.jpg) no-repeat center;
+background: url("../images/lv/lv2.jpg") no-repeat center;
 background-size:contain;
 }
 #set1 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51g24OOujKL.jpg) no-repeat center;
+background: url("../images/lv/lv3.jpg") no-repeat center;
 background-size:contain;
 }
 #set2 #box1{
-background: url("../images/dolce.jpg") no-repeat center;
+background: url("../images/dolce/dolce1.jpg") no-repeat center;
 background-size:contain;
 }
 #set2 #box2{
-background: url("../images/dolce2.jpg") no-repeat center;
+background: url("../images/dolce/dolce2.jpg") no-repeat center;
 background-size:contain;
 }
 #set2 #box3{
-background: url("../images/dolce3.jpg") no-repeat center;
+background: url("../images/dolce/dolce3.jpg") no-repeat center;
 background-size:contain;
 }
 #set3 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51T7ZHh6T%2BL.jpg) no-repeat center;
+background: url("../images/prada/prada1.jpg") no-repeat center;
 background-size:cover;
 }
 #set3 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51aKWEl3ZoL.jpg) no-repeat center;
+background: url("../images/prada/prada2.jpg") no-repeat center;
 background-size:cover;
 }
 #set3 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51Y%2Blf9QSxL.jpg) no-repeat center;
+background: url("../images/prada/prada3.jpg") no-repeat center;
 background-size:cover;
 }
 #set4 #box1{
-background: url("../images/gucci.jpg") no-repeat center;
+background: url("../images/gucci/gucci1.jpg") no-repeat center;
 background-size:contain;
 }
 #set4 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51d-ZJYm8iL.jpg) no-repeat center;
+background: url("../images/gucci/gucci2.jpg") no-repeat center;
 background-size:cover;
 }
 #set4 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51IwT4tLYEL.jpg) no-repeat center;
+background: url("../images/gucci/gucci3.jpg") no-repeat center;
 background-size:cover;
 }
 #set5 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51diNyLEjEL.jpg) no-repeat center;
+background: url("../images/ysl/ysl1.jpg") no-repeat center;
 background-size:cover;
 }
 #set5 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41rIIskG9DL.jpg) no-repeat;
-background-size:contain;
+background: url("../images/ysl/ysl2.jpg") no-repeat;
+background-size:cover;
 }
 #set5 #box3{
-background: url("../images/walletsysl.jpg") no-repeat center;
+background: url("../images/ysl/ysl3.jpg") no-repeat center;
 background-size:cover;
 }
 #set6 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41Ls5IvPWFL.jpg) no-repeat center;
+background: url("../images/bottega/bottega1.jpg") no-repeat center;
 background-size:cover;
-background-position:0% 67.5%;
+background-position:0% 75%;
 }
 #set6 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/31n%2Bk1z2ZIL.jpg) no-repeat center;
+background: url("../images/bottega/bottega2.jpg") no-repeat center;
 background-size:cover;
 background-position:0% 75%;
 }
 #set6 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41SnEeOwxfL.jpg) no-repeat center;
+background: url("../images/bottega/bottega3.jpg") no-repeat center;
 background-size:cover;
 background-position:0% 75%;
 }
 #set7 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51ivpsrMy5L.jpg) no-repeat center;
+background: url("../images/burberry/burberry1.jpg") no-repeat center;
 background-size:cover;
 }
 #set7 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51qpsvvsJAL.jpg) no-repeat center;
+background: url("../images/burberry/burberry2.jpg") no-repeat center;
 background-size:cover;
 }
 #set7 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/5182Oy1arRL.jpg) no-repeat center;
+background: url("../images/burberry/burberry3.jpg") no-repeat center;
 background-size:cover;
 }
 #set8 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/31CXGlFJDxL.jpg) no-repeat center;
+background: url("../images/givenchy/givenchy1.jpg") no-repeat center;
 background-size:cover;
 }
 #set8 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41-QMR8QlpL.jpg) no-repeat center;
+background: url("../images/givenchy/givenchy2.jpg") no-repeat center;
 background-size:cover;
 }
 #set8 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41selMUcMbL.jpg) no-repeat center;
+background: url("../images/givenchy/givenchy3.jpg") no-repeat center;
 background-size:cover;
 }
 #set9 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51ivpsrMy5L.jpg) no-repeat center;
+background: url() no-repeat center;
 background-size:cover;
 }
 #set9 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51qpsvvsJAL.jpg) no-repeat center;
+background: url() no-repeat center;
 background-size:cover;
 }
 #set9 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/5182Oy1arRL.jpg) no-repeat center;
+background: url() no-repeat center;
 background-size:cover;
 }
 #set10 #box1{
-background: url(https://images-na.ssl-images-amazon.com/images/I/5109OTa8FWL.jpg) no-repeat center;
-background-size:contain;
+background: url("../images/kenzo/kenzo1.jpg") no-repeat center;
+background-size:cover;
 }
 #set10 #box2{
-background: url(https://images-na.ssl-images-amazon.com/images/I/51RFf0Gi9iL.jpg) no-repeat center;
-background-size:contain;
+background: url("../images/kenzo/kenzo2.jpg") no-repeat center;
+background-size:cover;
 }
 #set10 #box3{
-background: url(https://images-na.ssl-images-amazon.com/images/I/41VJA497mmL.jpg) no-repeat center;
-background-size:contain;
+background: url("../images/kenzo/kenzo3.jpg") no-repeat center;
+background-size:cover;
 }
 #set11 #box1{
-background: url("../images/wallet1.jpg") no-repeat center;
+background: url("../images/mcm/mcm1.jpg") no-repeat center;
 background-size:cover;
 }
 #set11 #box2{
-background: url("../images/wallet2.jpg") no-repeat center;
+background: url("../images/mcm/mcm2.jpg") no-repeat center;
 background-size:cover;
 }
 #set11 #box3{
-background: url("../images/wallet3.jpg") no-repeat center;
+background: url("../images/mcm/mcm3.jpg") no-repeat center;
 background-size:cover;
 }
 span{
@@ -551,29 +551,5 @@ top:-3380px;
 .three-boxes ol li{
 	padding: 66px 18.5%;
 margin: 0 0.4%;
-}
-#set4 #box2{
-background-size:contain;
-}
-#set5 #box2{
-background-position:0 50%;
-}
-#set8 #box2{
-background-size:contain;
-}
-#set4 #box3{
-background-size:contain;
-}
-#set5 #box3{
-background-size:contain;
-}
-#set7 #box2{
-background-size:contain;
-}
-#set7 #box1{
-background-size:contain;
-}
-#set57 #box3{
-background-size:contain;
 }
 }
